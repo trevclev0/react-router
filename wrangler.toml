@@ -5,8 +5,8 @@ compatibility_date = "2024-08-29"
 
 [vars]
 NODE_VERSION = "20"
-UNSTABLE_PRE_BUILD = "asdf install nodejs 20:latest"
+UNSTABLE_PRE_BUILD = "asdf install nodejs 20:latest && asdf install nodejs lts-iron"
 
 [env.production.vars]
 NODE_VERSION = "20"
-UNSTABLE_PRE_BUILD = "asdf install nodejs 20:latest"
+UNSTABLE_PRE_BUILD = "asdf install nodejs 20:latest && asdf install nodejs lts-iron"
