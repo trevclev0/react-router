@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import Axios from 'axios';
-import AppContext from '../AppContext';
+import AppContext from '../context/AppContext';
 
 export default function Home() {
   const { username } = useContext(AppContext);
