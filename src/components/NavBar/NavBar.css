@@ -1,5 +1,5 @@
-.NavBar ul {
+.Navbar ul {
   list-style: none;
   display: flex;
-  justify-content: space-arouns;
+  justify-content: space-around;
 }

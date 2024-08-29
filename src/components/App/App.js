@@ -6,7 +6,7 @@ import Home from '../../pages/Home';
 import Profile from '../../pages/Profile';
 import Contact from '../../pages/Contact';
 import AppContext from '../../context/AppContext';
-import NavBar from '../NavBar/NavBar';
+import NavBar from '../Navbar/Navbar';
 
 function App() {
   const [username, setUsername] = useState('Trevor');
