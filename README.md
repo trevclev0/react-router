@@ -6,3 +6,5 @@ Implements a Single Page Application (SPA) using `react-router`
 
 - How to create pages in React
 - How to route pages and add them properly to a `<nav>`
+- Use `createContext()` to manage state
+- Use `react-query` for HTTP requests
